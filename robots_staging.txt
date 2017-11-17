@@ -1,0 +1,3 @@
+# This file is served instead of robots.txt when domain name contains "staging"
+User-Agent: *
+Disallow: /
