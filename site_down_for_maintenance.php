@@ -1,5 +1,5 @@
 <?
-// SURFACE DIGITAL "SITE DOWN" MAINTENANCE PAGE
+// "SITE DOWN" MAINTENANCE PAGE
 // To activate this maintenance page and block access to the whole site, uncomment these lines to .htaccess
 // 		 RewriteCond %{HTTP_COOKIE} !Dev
 //		 RewriteRule .* site_down_for_maintenance.php?until=2030 [last]		# last four digits should be the time you expect to return (24h time)
