@@ -13,7 +13,7 @@ define('DB_PASSWORD', '');
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
 
-/** We override the home and site_url vars here so when downloading a database from staging/production we can actually get into admin area - however, if you're not using vhosts, you may need to comment this out or add the subfolder that the site lives in */
+/** We override the home and site_url vars here so when downloading a database from staging/production we can actually get into admin area - however, if you're not using vhosts, you may need to comment this out or add the subfolder that the site lives in. Alternatively, try and visit /wp-login.php then if that works, go to settings to reset permalinks */
 define('WP_HOME', PROTOCOL . '//' . $_SERVER['HTTP_HOST']);
 define('WP_SITEURL', WP_HOME);
 
