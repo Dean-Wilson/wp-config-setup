@@ -14,8 +14,8 @@ https://github.com/YumpDigital/yump-ultimate-htaccess/blob/master/.htaccess
 Ignore file is setup to ignore the public folder inside your theme. This is useful if you are using a task runner to generate a public folder. 
 
 ## Robots
-Switches between standard robots and staging robots based on the URL via htaccess. 
-
+Switches between standard robots and staging robots based on the URL via htaccess. To work this requires your staging site to use "staging" in the domain name (as a subdomain so projectname.staging.domainname)
+ 
 ## Maintenance 
 See htaccess for instructions on putting the site into maintenance mode. 
 
