@@ -14,6 +14,5 @@ wp-content/wflogs/
 /sitemap.xml
 /sitemap.xml.gz
 
-wp-content/themes/themename/public
 wp-content/themes/themename/node_modules/
 wp-content/themes/themename/npm-debug.log
